@@ -1,4 +1,4 @@
-package com.example.hw2_callme;
+ package com.example.hw2_callme;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
@@ -53,7 +53,7 @@ public class MainActivity extends ActionBarActivity {
 		  editor.putString(getString(R.string.password), password); 
 		  editor.commit();
 		  
-		 Intent intent = new Intent(this, Callpan_activity.class);
+		 Intent intent = new Intent(this, CallPanActivity.class);
 		 startActivity(intent);
 
 		 

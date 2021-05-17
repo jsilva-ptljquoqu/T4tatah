@@ -6,8 +6,8 @@
     <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/button_save"
-    android:onClick="saveUserPass" />
+    android:text="@string/button_wake_someone"
+    android:onClick="wakeSomeone" />
     
 
 </LinearLayout>
